@@ -36,5 +36,6 @@ title: Summer Programs
     - [Website](https://sparc-camp.org/)
 
 ***
-To read about past experiences from students, visit the [experiences] (experiences.md) page.
+
+To read about past experiences from students, visit the [experiences](experiences.md) page.
 
