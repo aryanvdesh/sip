@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add a program
+title: Add
 ---
 ## Please help us in improving our portal by contributing to the forms given below
 - Add an internship
