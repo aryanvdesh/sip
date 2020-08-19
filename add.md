@@ -15,5 +15,5 @@ title: Add
      - Add any other experiences/ suggestions in this [Form](https://forms.gle/MxYf5wDqPSPa9eGcA)
 
 * * *
-## contact us
+## Contact us
 if you have any suggestions or questions, contact us at &lt;name of portal&gt; at gmail dot com
