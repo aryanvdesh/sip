@@ -35,3 +35,6 @@ title: Summer Programs
     - The camp is conducted at the California State University, East Bay
     - [Website](https://sparc-camp.org/)
 
+***
+To read about past experiences from students, visit the [experiences] (experiences.md) page.
+
