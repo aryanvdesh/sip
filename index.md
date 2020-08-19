@@ -14,4 +14,4 @@ sip helps you in finding internships, summer programs, online courses and hackat
 sip collects all of the data, from universities and companies and helps you find them easily.
 
 ### contact us
-if you have any suggestions or questions, contact us at &lt;name of portal&gt; at gmail dot com
+if you have any suggestions, questions or want to work with us,contact us at &lt;name of portal&gt; at gmail dot com
