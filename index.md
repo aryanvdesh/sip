@@ -14,7 +14,7 @@ sip helps you in finding internships, summer programs, online courses and hackat
 sip collects all of the data, from universities and companies and helps you find them easily.
 
 ### how to use
-with searching for you topics you find interesting on our [portal.md](portal)  sip will provide you with multiple links of summer programs + internships.
+with searching for you topics you find interesting on our [portal](portal.md)  sip will provide you with multiple links of summer programs + internships.
 
 ### contact us
 if you have any suggestions or questions, contact us at &lt;name of portal&gt; at gmail dot com
