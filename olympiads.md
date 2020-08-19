@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Olympiads
 ---
 
 ### what are olympiads?
