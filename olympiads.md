@@ -7,6 +7,7 @@ title: Olympiads
 Olympiads are the means for students to compete with other students on a similar educational level. Such exams promote the learning of skills in subjects like mathematics, science, computer technology or English language among students.
 
 * * *
+### Learn about Olympiads from Medal Winners -
 
 ### Olympiads : 
 - International Mathematical Olympiad (IMO)
@@ -40,5 +41,3 @@ Olympiads are the means for students to compete with other students on a similar
     - [Website](https://www.historyolympiad.com/)
 - International Economics Olympiad (IEO)
     - [Website](https://ecolymp.org/)
-
-### Learn about Olympiads from Medal Winners -
