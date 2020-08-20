@@ -16,7 +16,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
   <body>
@@ -24,21 +23,9 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">Student Intern Portal (sip)</h1>
     </header>
-    <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <main id="content" class="main-content" role="main">
-            <p style="text-align: center;"><a href="internships">Internships</a> | <a href="schools">Summer Programs</a> | <a href="courses">Courses</a> | <a href="ambassador">Ambassador Programs</a> | <a href="hackathons">Hackathons</a> | <a href="olympiads">Olympiads</a> | <a href="experiences">Experiences</a> | <a href="add">Add a Program</a> | <a href="index">Home</a></p>
-          <h4 class="text-white">Collapsed content</h4>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
-        </div>
-      </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
-    </div>
+
+    <main id="content" class="main-content" role="main">
+        <p style="text-align: center;"><a href="internships">Internships</a> | <a href="schools">Summer Programs</a> | <a href="courses">Courses</a> | <a href="ambassador">Ambassador Programs</a> | <a href="hackathons">Hackathons</a> | <a href="olympiads">Olympiads</a> | <a href="experiences">Experiences</a> | <a href="add">Add a Program</a> | <a href="index">Home</a></p>
         {{ content }}
     </main>
   </body>
