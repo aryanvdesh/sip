@@ -4,4 +4,4 @@ title: Hackathons
 ---
 
 ## Check this out instead
-Hack club has them curated for high school students. Check them out [here](https://hackathons.hackclub.com/)
+Hack club has a curated list of hackathons for high school students. Check them out [here](https://hackathons.hackclub.com/)
