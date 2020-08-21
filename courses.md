@@ -37,3 +37,11 @@ title: Courses
 - Essence of linear algebra
     - A geometric understanding of matrices, determinants, eigen-stuffs and more.
     - [Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+
+- Essence of calculus
+    - The goal here is to make calculus feel like something that you yourself could have discovered.
+    - [Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+
+- Differential Equations
+    - An overview of differential equations.
+    - [Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6)

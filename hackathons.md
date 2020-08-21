@@ -3,4 +3,5 @@ layout: default
 title: Hackathons
 ---
 
-## to help add content on this page, go to the [Add a Program](add.md) page!
+## Check this out instead
+Hack club has them curated for high school students. Check them out [here](https://hackathons.hackclub.com/)
