@@ -18,12 +18,12 @@ title: Summer Programs
 
 - AI4ALL at Carnegie Mellon University (CMU)
     - Rising juniors and seniors with a strong interest in computer science can study artificial intelligence with CMU faculty, staff and researchers who are leaders in the field. The program is free, and students reside on campus, where they are immersed in hands-on learning, and develop a supportive peer network that will help them throughout their AI careers.
-    - The camp is conducted in Pittsburgh, Pennysylvania
+    - The camp is conducted in Pittsburgh, Pennsylvania
     - [Website](https://www.cs.cmu.edu/ai4all-cmu)
 
 - Pre-College Programs at Carnegie Mellon University (CMU)
     - The Carnegie Mellon Pre-College programs provide learning and development opportunities for high school students both inside and outside of the classroom. 
-    - The camp is conducted in Pittsburgh, Pennysylvania
+    - The camp is conducted in Pittsburgh, Pennsylvania
     - [Website](https://www.cmu.edu/pre-college/)
 
 - MITES by MIT
@@ -65,7 +65,7 @@ title: Summer Programs
     - The Summer Academy for Math and Science (SAMS) provides opportunities for students from underrepresented communities to explore STEM-related fields and earn college credit.
     - As SAMS Scholars, students engage in a rigorous curriculum taught by our renowned faculty and staff who are deeply committed to student success. The program allows students to develop deeper understanding in areas such as mathematics, biology, physics and computer programming via traditional classroom instruction, hands-on projects and engagement activities. In addition to their academic experiences, students also have the opportunity to collaborate, and develop meaningful relationships with peers from across the country.
     - Duration: 6 weeks
-    - The camp is conducted in Pittsburgh, Pennysylvania
+    - The camp is conducted in Pittsburgh, Pennsylvania
     - [Website](https://www.cmu.edu/pre-college/academic-programs/sams.html)
 
 - Perimeter Institute International Summer School for Young Physicists (ISSYP)
