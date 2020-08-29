@@ -9,6 +9,10 @@
     background-image:linear-gradient(120deg,#5073B8,#A067AB);
     }
 
-.navbar {
-    background: transparent;
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-default.scrolled{
+  background:#000;
 }
