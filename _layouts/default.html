@@ -8,6 +8,9 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', '{{ site.google_analytics }}');
+        $(window).scroll(function(){
+	      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
       </script>
     {% endif %}
     <meta charset="UTF-8">
