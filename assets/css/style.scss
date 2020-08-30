@@ -11,5 +11,13 @@
 
 .navbar {
     background-image: linear-gradient(120deg,#5073B8,#A067AB);
-    color: #ffff;
 }
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
