@@ -7,8 +7,6 @@ title: Add
      - [Form](https://forms.gle/mgU46hVyN9LySoie8)
 - Add a summer program
      - [Form](https://forms.gle/KYiHrQ4XM9JgCUkF8)
-- Add a hackathon
-     - [Form](https://forms.gle/8dUEDJNG1i9t28fA8)
 - Add a online course
      - [Form](https://forms.gle/hJA2pfQbJik27Cgm7)
 - Other
