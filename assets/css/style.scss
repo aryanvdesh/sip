@@ -20,3 +20,13 @@
     text-align: center;
     text-decoration: none;
   }
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+::selection {
+    color: #fffff8;
+    background: rgba(0, 0, 0, 0.85);
+  }
