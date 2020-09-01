@@ -11,14 +11,6 @@
         $(window).scroll(function(){
 	      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
         });
-        function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
-}
       </script>
     {% endif %}
     <meta charset="UTF-8">
@@ -28,7 +20,6 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="shortcut icon" href="../logo/sip_logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   </head>
@@ -44,19 +35,7 @@
       <a href="courses">Courses</a>
       <a href="ambassador">Ambassador Programs</a>
     </nav>
-
-    <div class="topnav1">
-      <div id="myLinks">
-        <a href="internships">Internships</a>
-        <a href="schools">Summer Schools</a>
-        <a href="courses">Courses</a>
-        <a href="ambassador">Ambassador Programs</a>>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-
+    
     <main id="content" class="main-content" role="main">
       <p style="text-align: center;"><a href="hackathons">Hackathons</a> | <a href="experiences">Experiences</a> | <a href="links">Links</a> | <a href="add">Add a Program</a> | <a href="index">Home</a></p>
         {{ content }}
