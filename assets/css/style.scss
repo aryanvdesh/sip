@@ -3,34 +3,51 @@
 
 @import"{{ site.theme }}";
 
+body {
+  margin: 0px;
+}
+
 .page-header{
     color:#ffff;
     background-color:#A067AB;
     background-image:linear-gradient(120deg,#5073B8,#A067AB);
     }
-
-.navbar {
-    background-image: linear-gradient(120deg,#5073B8,#A067AB);
-}
-
-.navbar a {
-    float: right;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-  }
-
-.navbar a:hover {
-    text-decoration: underline;
-    color: black;
-  }
   
 ::selection {
     color: #fffff8;
     background: rgba(0, 0, 0, 0.85);
   }
 
-  .touch .navbar {
-    font-size: 1em;
+.topnav1 {
+  overflow: hidden;
+  background-image: linear-gradient(120deg,#5073B8,#A067AB);
+  position: absolute;
+  width: 100%;
+  padding: 2px;
+}
+
+.topnav1 #myLinks {
+  display: none;
+}
+
+.topnav1 a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.topnav1 a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: center;
+}
+
+.topnav1 a.icon {
+  background: transparent;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
 }

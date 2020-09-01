@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-        $(window).scroll(function(){
-	      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
-        });
-      </script>
-    {% endif %}
+    
     <meta charset="UTF-8">
 
-{% seo %}
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Hackathons | sip</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Hackathons" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A portal for high school students to find internships, summer programs, online courses, hackathons, and ambassador programs." />
+<meta property="og:description" content="A portal for high school students to find internships, summer programs, online courses, hackathons, and ambassador programs." />
+<link rel="canonical" href="http://localhost:4000/hackathons.html" />
+<meta property="og:url" content="http://localhost:4000/hackathons.html" />
+<meta property="og:site_name" content="sip" />
+<script type="application/ld+json">
+{"@type":"WebPage","description":"A portal for high school students to find internships, summer programs, online courses, hackathons, and ambassador programs.","headline":"Hackathons","url":"http://localhost:4000/hackathons.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="shortcut icon" href="logo/sip_logo.png">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/style.css?v=b7fb8afd52c239cef681588e1fde869403f0dfeb">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
@@ -32,6 +34,7 @@
         x.style.display = "block";
       }
       }
+
     </script>
   </head>
   <body>
@@ -57,7 +60,9 @@
     </header>
     <main id="content" class="main-content" role="main">
       <p style="text-align: center;">
-        {{ content }}
+        <h2 id="check-this-out-instead">Check this out instead</h2>
+<p>Hack club has a curated list of hackathons for high school students. Check them out <a href="https://hackathons.hackclub.com/">here</a></p>
+
     </main>
   </body>
 </html>
