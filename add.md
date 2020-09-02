@@ -14,4 +14,4 @@ title: Add
 
 * * *
 ## Contact us
-if you have any suggestions or questions, contact us at &lt;name of portal&gt; at gmail dot com
+if you have any suggestions or questions, contact us at &lt;name of portal&gt;* at gmail dot com
