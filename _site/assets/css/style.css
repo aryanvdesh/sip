@@ -324,13 +324,13 @@ body { margin: 0px; }
 
 ::selection { color: #fffff8; background: rgba(0, 0, 0, 0.85); }
 
-.logo_style { color: black; }
-
-@media (min-width: 992px) { .navbar { width: 100%; background-color: #A067AB; background-image: linear-gradient(120deg, #5073B8, #A067AB); height: 44px; }
-  .navbar .logo { padding: 11px; font-size: 0.9375em; font-weight: 800; float: left; } }
+@media (min-width: 992px) { .navbar { width: 100%; background-color: #A067AB; background-image: linear-gradient(120deg, #5073B8, #A067AB); height: 44px; position: fixed; }
+  .navbar .logo1 { padding: 11px; font-size: 0.9375em; float: left; }
+  .h_l { color: white; }
+  .h_l:hover { text-decoration: underline; color: black; } }
 #hamburger { width: 30px; position: relative; margin: auto; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; -o-transition: .5s ease-in-out; transition: .5s ease-in-out; cursor: pointer; }
 
-#hamburger span { display: block; position: absolute; height: 5px; width: 100%; background: black; border-radius: 9px; opacity: 1; left: 7px; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out; }
+#hamburger span { display: block; position: absolute; height: 5px; width: 100%; background: white; border-radius: 9px; opacity: 1; left: 7px; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out; }
 
 #hamburger span:nth-child(1) { top: 0px; }
 
@@ -356,6 +356,8 @@ body { margin: 0px; }
 
 .sitenavigation li a:hover { text-decoration: underline; color: black; }
 
+.sitenavigation li a:active { text-decoration: underline; color: black; }
+
 .sitenavigation li.clicked > ul { display: block; }
 
 .sitenavigation li ul { display: none; position: absolute; min-width: 200px; max-width: 300px; padding: 0; margin: 0; }
@@ -375,7 +377,9 @@ body { margin: 0px; }
 .menu-icon { display: none; }
 
 @media (max-width: 991px) { .navbar { width: 100%; background-color: linear-gradient(120deg, #5073B8, #A067AB); height: 44px; position: absolute; top: 0; left: 0; right: 0; max-width: 100%; z-index: 1; }
-  .navbar .logo { float: right; font-weight: 800; padding: 5px; margin: 10px; color: black; }
+  .navbar .logo1 { float: right; padding: 5px; margin: 10px; }
+  .h_l { color: white; }
+  .h_l:hover { text-decoration: underline; color: black; }
   .navbar .menu-icon { width: 30px; height: 25px; padding-top: 0; margin-top: 7px; display: block; -webkit-tap-highlight-color: transparent; padding: 5px; padding-top: 1px; padding-bottom: 12px; margin-bottom: 10px; cursor: pointer; }
   .navbar .sitenavigation ul { display: none; max-width: none !important; }
   .navbar .sitenavigation li { float: none; display: block; margin: 0; padding: 0; }

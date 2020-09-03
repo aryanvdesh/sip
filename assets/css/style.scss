@@ -17,9 +17,6 @@ body {
     color: #fffff8;
     background: rgba(0, 0, 0, 0.85);
   }
-  .logo_style {
-      color:black;
-  }
   @media (min-width: 992px) {
     
     .navbar {
@@ -27,12 +24,20 @@ body {
       background-color:#A067AB;
       background-image:linear-gradient(120deg,#5073B8,#A067AB);
       height: 44px;
+      position: fixed;
     }
-    .navbar .logo {
+    .navbar .logo1 {
       padding: 11px;
       font-size: 0.9375em;
-      font-weight: 800;
       float: left;
+    }
+    .h_l {
+      color: white;
+    }
+
+    .h_l:hover {
+      text-decoration: underline;
+      color: black;
     }
   }
   #hamburger {
@@ -55,7 +60,7 @@ body {
     position: absolute;
     height: 5px;
     width: 100%;
-    background: black;
+    background: white;
     border-radius: 9px;
     opacity: 1;
     left: 7px;
@@ -123,6 +128,7 @@ body {
     font-size: 0.9375em;
     -webkit-tap-highlight-color: transparent;
   }
+
   .sitenavigation li a.nav-path-selected, .sitenavigation li a.linkclicked {
     color: white;
     background-color: #ECECEC;
@@ -135,6 +141,12 @@ body {
     text-decoration: underline;
     color: black;
   }
+
+  .sitenavigation li a:active {
+    text-decoration: underline;
+    color: black;
+  }
+
   .sitenavigation li.clicked > ul {
     display: block;
   }
@@ -150,6 +162,7 @@ body {
     background-color: #dfdfdf;
     font-size: 0.8125em;
   }
+
   .sitenavigation li ul li {
     float: none;
     display: block;
@@ -186,13 +199,21 @@ body {
       max-width: 100%;
       z-index: 1;
     }
-    .navbar .logo {
+    .navbar .logo1 {
       float: right;
-      font-weight: 800;
       padding: 5px;
       margin: 10px;
+    }
+
+    .h_l {
+      color: white;
+    }
+
+    .h_l:hover {
+      text-decoration: underline;
       color: black;
     }
+
     .navbar .menu-icon {
       width: 30px;
       height: 25px;
