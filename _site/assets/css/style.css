@@ -356,8 +356,6 @@ body { margin: 0px; }
 
 .sitenavigation li a:hover { text-decoration: underline; color: black; }
 
-.sitenavigation li a:active { text-decoration: underline; color: black; }
-
 .sitenavigation li.clicked > ul { display: block; }
 
 .sitenavigation li ul { display: none; position: absolute; min-width: 200px; max-width: 300px; padding: 0; margin: 0; }
@@ -377,7 +375,7 @@ body { margin: 0px; }
 .menu-icon { display: none; }
 
 @media (max-width: 991px) { .navbar { width: 100%; background-color: linear-gradient(120deg, #5073B8, #A067AB); height: 44px; position: absolute; top: 0; left: 0; right: 0; max-width: 100%; z-index: 1; }
-  .navbar .logo1 { float: right; padding: 5px; margin: 10px; }
+  .navbar .logo1 { float: right; padding: 5px; margin: 9px; height: 100px; }
   .h_l { color: white; }
   .h_l:hover { text-decoration: underline; color: black; }
   .navbar .menu-icon { width: 30px; height: 25px; padding-top: 0; margin-top: 7px; display: block; -webkit-tap-highlight-color: transparent; padding: 5px; padding-top: 1px; padding-bottom: 12px; margin-bottom: 10px; cursor: pointer; }
@@ -386,7 +384,7 @@ body { margin: 0px; }
   .navbar .sitenavigation.is-tapped > ul { display: block; position: absolute; margin: 0; background-color: #FFF; right: 0; left: 0; z-index: 100; padding: 0; }
   .navbar .sitenavigation.is-tapped > ul a { width: 100%; margin: 0; background-image: linear-gradient(120deg, #5073B8, #A067AB); display: block; font-size: 1.1875em; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; height: auto; color: white; float: none; border: none !important; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; }
   .navbar .sitenavigation.is-tapped > ul a:hover { text-decoration: underline; color: black; }
-  .navbar .sitenavigation.is-tapped > ul li { width: 100%; background-color: #f7f7f7; border-bottom: solid 1px black; -webkit-tap-highlight-color: transparent; }
+  .navbar .sitenavigation.is-tapped > ul li { width: 100%; background-color: #f7f7f7; -webkit-tap-highlight-color: transparent; }
   .navbar .sitenavigation.is-tapped > ul li li { background-color: #fff; }
   .navbar .sitenavigation.is-tapped > ul ul { display: none; width: 100%; z-index: 200; border: none; margin-left: 0; padding: 0; position: relative !important; }
   .navbar .sitenavigation.is-tapped > ul ul ul { clear: both; left: 0; margin-top: 0; }

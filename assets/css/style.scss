@@ -142,11 +142,6 @@ body {
     color: black;
   }
 
-  .sitenavigation li a:active {
-    text-decoration: underline;
-    color: black;
-  }
-
   .sitenavigation li.clicked > ul {
     display: block;
   }
@@ -202,7 +197,8 @@ body {
     .navbar .logo1 {
       float: right;
       padding: 5px;
-      margin: 10px;
+      margin: 9px;
+      height: 100px;
     }
 
     .h_l {
@@ -270,8 +266,7 @@ body {
     }
     .navbar .sitenavigation.is-tapped > ul li {
       width: 100%;
-      background-color: #f7f7f7;
-      border-bottom: solid 1px black;
+      background-color: #f7f7f7;  
       -webkit-tap-highlight-color: transparent;
     }
 
