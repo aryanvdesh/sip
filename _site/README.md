@@ -1,3 +1,3 @@
-## Student Intern Portal (sip)
+# Student Intern Portal (sip)
 
-* A portal for high school students to find internships, summer programs, online courses, and ambassador programs.
+sip is a portal for high school students to find internships, summer schools, online courses and ambassador programs.
