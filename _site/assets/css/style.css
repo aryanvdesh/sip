@@ -397,3 +397,9 @@ body { margin: 0px; }
   .navbar .sitenavigation.is-tapped > ul li.nav-dropdown:after { content: "\f107"; font-family: FontAwesome; position: absolute; color: #000; padding: 0; display: block; width: 20%; right: 0; margin-top: -40px; text-align: center; font-size: 16px; font-weight: 700; padding-top: 10px; padding-bottom: 10px; }
   .navbar .sitenavigation.is-tapped > ul li.expanded:after { display: none; }
   .navbar .sitenavigation.is-tapped > ul li.expanded li:first-child:before { content: "\f106"; font-family: FontAwesome; position: absolute; color: black; padding: 0; display: block; width: 20%; right: 0; margin-top: -40px; text-align: center; font-size: 16px; font-weight: 700; padding-top: 10px; padding-bottom: 10px; } }
+@media (prefers-color-scheme: dark) { body { background-color: #252525; color: #eeeeee; }
+  .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: #f7f7f7; filter: brightness(50%); }
+  .navbar { background-image: linear-gradient(120deg, #385081, #5c3a63); }
+  .page-header { background-image: linear-gradient(120deg, #385081, #5c3a63); }
+  .navbar .sitenavigation.is-tapped > ul a { background-image: linear-gradient(120deg, #385081, #5c3a63); }
+  ::selection { background: gray; } }
